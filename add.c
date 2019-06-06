@@ -23,7 +23,7 @@ int a,b,sum;
 
      void main()
            {
-             void print();
+              void print();
             }
 
   
