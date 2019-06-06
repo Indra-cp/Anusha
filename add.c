@@ -1,30 +1,29 @@
 #include<stdio.h>
+int getinput(int *a,int *b)
+{
+   printf("enter the two numbers");
+   scanf("%d%d",a,b);
+}
+  
+ int  add(int a,int b)
+{
+  int sum;
+  return sum=a+b;
+}
 
-int a,b,sum;
-
-  void getinput()
-   {
-      pritf("enter the two  number");
-      scanf("%d%d",&a,&b);
-   }
-  int add()
-     {
-        sum=a+b;
-        return sum;
-      }
-
-    void print()
-        {
-           void getinput();
-           int add();
-            printf("the values of 2 num %d",sum);
-      
-        }           
-
-     void main()
-           {
-              void print();
-            }
+ void output(int a,int b, int c)
+{
+  printf("\n %d+%d=%d",a,b,c);
+}
+ 
+  
+   void main()
+    {
+        int x,y,z;
+        getinput(&x,&y);
+        z=add(x,y);
+ 	output(x,y,z);
+    }
 
   
 
